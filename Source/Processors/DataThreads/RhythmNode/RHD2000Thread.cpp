@@ -484,7 +484,7 @@ void RHD2000Thread::scanPorts()
 	chipId.insertMultiple(0, -1, 8);
 	Array<int> tmpChipId(chipId);
 
-	setSampleRate(Rhd2000EvalBoard::SampleRate30000Hz, true); // set to 30 kHz temporarily
+	// setSampleRate(Rhd2000EvalBoard::SampleRate30000Hz, true); // set to 30 kHz temporarily
 
 	// Enable all data streams, and set sources to cover one or two chips
 	// on Ports A-D.
